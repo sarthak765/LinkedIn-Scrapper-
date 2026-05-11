@@ -1,0 +1,72 @@
+# LinkedIn Scraper - .gitignore
+# Ignore environment variables and credentials
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Scraped Data & Output
+output/
+*.csv
+*.json
+*.xlsx
+*.xls
+output_*.txt
+
+# Logs
+*.log
+logs/
+
+# Browser & Selenium
+chromedriver
+geckodriver
+*.tmp
+
+# Credentials & Secrets
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+.cache/
